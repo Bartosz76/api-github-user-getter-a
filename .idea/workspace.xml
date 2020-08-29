@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4bc55c4-41c1-415e-b823-67ca2080eea9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theapp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theapp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theapp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theapp/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +38,36 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../finances-calculator" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="api-github-user-getter-a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="theapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="theapp.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -53,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598702740089</updated>
-      <workItem from="1598702745433" duration="3140000" />
+      <workItem from="1598702745433" duration="7429000" />
     </task>
     <servers />
   </component>
@@ -61,13 +87,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1598715387771">
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1598724743758">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1598715387771" />
+    <state x="574" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1598724743758" />
     <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1598716040538">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1598716040538" />
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1598725601264">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598725601264" />
+    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1598725601264">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598725601264" />
+    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1598725601263">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598725601263" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1598725601264">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598725601264" />
+    <state width="1493" height="214" key="GridCell.Tab.1.bottom" timestamp="1598725601264">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598725601264" />
+    <state width="1493" height="214" key="GridCell.Tab.1.center" timestamp="1598725601264">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1598725601264" />
+    <state width="1493" height="214" key="GridCell.Tab.1.left" timestamp="1598725601264">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1598725601264" />
+    <state width="1493" height="214" key="GridCell.Tab.1.right" timestamp="1598725601264">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1598725601264" />
   </component>
 </project>
