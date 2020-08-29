@@ -19,14 +19,8 @@ public class UserController {
     }
 
     @GetMapping("/user/info")
-    public String getUser() throws IOException {
-        service.anotherTry();
-        return service.getData();
-    }
-
-    @GetMapping("/user/infotwo")
-    public String getAnotherUser() throws Exception {
-        return service.getAnotherData();
+    public User getUser() throws IOException {
+        return service.getUser();
     }
 
 
