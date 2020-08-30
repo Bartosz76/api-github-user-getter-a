@@ -30,10 +30,6 @@ public class User {
         calculations = 6 / 2 * (2 + 1);
     }
 
-    public int getCalculations() {
-        return calculations;
-    }
-
     public String getLogin() {
         return login;
     }
@@ -80,5 +76,13 @@ public class User {
 
     public void setCreatedAt(String createdAt) {
         this.createdAt = createdAt;
+    }
+
+    public int getCalculations() {
+        return calculations;
+    }
+
+    public void setCalculations(int calculations) {
+        this.calculations = calculations;
     }
 }

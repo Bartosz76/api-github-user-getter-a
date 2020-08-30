@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import theapp.model.User;
-import theapp.service.Service;
+import theapp.service.UserService;
 
 import java.io.IOException;
 
@@ -12,16 +12,18 @@ import java.io.IOException;
 @RequestMapping("/api/v1")
 public class UserController {
 
-    private Service service;
+    private UserService userService;
 
-    public UserController(Service service) {
-        this.service = service;
+    public UserController(UserService userService) {
+        this.userService = userService;
     }
 
     @GetMapping("/user/info")
     public User getUser() throws IOException {
-        return service.getUser();
+        return userService.fetchUser();
     }
+
+
 
 
 }

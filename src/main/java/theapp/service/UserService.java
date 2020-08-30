@@ -10,18 +10,22 @@ import java.io.InputStreamReader;
 import java.net.URL;
 
 @org.springframework.stereotype.Service
-public class Service {
+public class UserService {
 
-    public static final Logger logger = LoggerFactory.getLogger(Service.class);
+    public static final Logger logger = LoggerFactory.getLogger(UserService.class);
 
-    public User getUser() throws IOException {
+    public User fetchUser() throws IOException {
 
         URL url = new URL("https://api.github.com/users/octocat");
         InputStreamReader reader = new InputStreamReader(url.openStream());
 
         User user = new Gson().fromJson(reader, User.class);
-        return user;
-
+        if (user == null) {
+            logger.error("Could not return desired output.");
+            return null;
+        } else {
+            logger.info("The output returned.");
+            return user;
+        }
     }
-
 }
